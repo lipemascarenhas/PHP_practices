@@ -19,7 +19,6 @@ Estrutura api_vaipe:
 
 Como executar:
 1. Acesse o arquivo 'database.php' e altere o caminho para acessar o banco de dados;
-  1.1. Alterar os atributos que estão definidos em 'database.php'.
 2. Acesse o diretório 'employee';
 3. Execute o arquivo 'form_teste.html'
 >> faz uma consulta no banco de dados para acessar o cadastro dos colaboradores cadastrados a partir de input de 'id'; e perfil,
