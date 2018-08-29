@@ -5,7 +5,7 @@ Estrutura api_vaipe:
 |--config
 |---database.php /*acesso ao banco de dados*/
 
-|--employee /*CRUD e todos os arquivos executáveis*/
+|--employee /*CRUD e todos os arquivos executÃ¡veis*/
 |---create.php
 |---delete.php
 |---form_teste.html
@@ -15,11 +15,12 @@ Estrutura api_vaipe:
 |---update.php
 
 |--object 
-|---employee.php /*classe Employee, onde estão todos os métodos e atributos dos códigos*/
+|---employee.php /*classe Employee, onde estÃ£o todos os mÃ©todos e atributos dos cÃ³digos*/
 
 Como executar:
 1. Acesse o arquivo 'database.php' e altere o caminho para acessar o banco de dados;
-2. Acesse o diretório 'employee';
+  1.1. Alterar os atributos que estÃ£o definidos em 'database.php'.
+2. Acesse o diretÃ³rio 'employee';
 3. Execute o arquivo 'form_teste.html'
 >> faz uma consulta no banco de dados para acessar o cadastro dos colaboradores cadastrados a partir de input de 'id'; e perfil,
-retornando a quantidade de colaboradores do gênero feminino (F) e masculino (m).
+retornando a quantidade de colaboradores do gÃªnero feminino (F) e masculino (m);
